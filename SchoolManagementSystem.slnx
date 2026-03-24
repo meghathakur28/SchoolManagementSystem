@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="D:/Microservices/SchoolManagementSystem/SchoolAPIGateway/SchoolAPIGateway.csproj" />
+  <Project Path="D:/Microservices/SchoolManagementSystem/StudentAdmissionManagement/StudentAdmissionManagement.csproj" />
+  <Project Path="D:/Microservices/SchoolManagementSystem/StudentAttendanceManagement/StudentAttendanceManagement.csproj" />
+</Solution>
