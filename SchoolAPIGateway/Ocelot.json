@@ -3,28 +3,28 @@
     {
       // Route 1: Student Attendance Microservice
       // Client: GET /apigateway/AttendanceService
-      // Routes to: GET https://localhost:44317/api/StudentAttendance
-      "DownstreamPathTemplate": "/api/StudentAttendance",
+      // Routes to: GET https://localhost:7007/api/StudentAttendence
+      "DownstreamPathTemplate": "/api/StudentAttendence",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 44317
+          "Port": 7007
         }
       ],
-      "UpstreamPathTemplate": "/apigateway/AttendanceService",
+      "UpstreamPathTemplate": "/apigateway/AttendenceService",  //https://localhost:7188/apigateway/AttendenceService
       "UpstreamHttpMethod": [ "GET", "PUT", "POST", "DELETE" ]
     },
     {
       // Route 2: Student Admission Microservice
       // Client: GET /apigateway/AdmissionService
-      // Routes to: GET https://localhost:44381/api/StudentAdmission
+      // Routes to: GET https://localhost:7273/api/StudentAdmission
       "DownstreamPathTemplate": "/api/StudentAdmission",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 44381
+          "Port": 7273
         }
       ],
       "UpstreamPathTemplate": "/apigateway/AdmissionService",
